@@ -28,7 +28,7 @@ abstract class Composite extends Component
         return $this->children;
     }
 
-    protected function getChilds(): string
+    public function operation(): string
     {
         $composite = "";
         foreach ($this->children as $child) {

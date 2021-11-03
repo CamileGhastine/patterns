@@ -10,13 +10,13 @@ class Form extends Composite
 
     public function __construct(private string $name, private string $action)
     {
-        $this->children = new \SplObjectStorage();
+       parent::__construct();
     }
 
     public function operation(): string
     {
         return "<form action=\"{$this->action}\" method=\"post\" name=\"{$this->name}\">\n" .
-            $this->getChilds() .
+            parent::operation() .
             "</form>\n";
     }
 }

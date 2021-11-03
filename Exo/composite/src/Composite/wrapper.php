@@ -10,7 +10,7 @@ class Wrapper extends Composite
     public function operation(): string
     {
         return "<div>\n" .
-            $this->getChilds() .
+            parent::operation() .
             "</div>\n";
     }
 }
