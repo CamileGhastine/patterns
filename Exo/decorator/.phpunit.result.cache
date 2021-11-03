@@ -1,0 +1,1 @@
+{"version":1,"defects":{"ParagraphTest::testParagraph":4,"ItalicTest::testParagraph":4,"ItalicTest::testtalicWithAnOtherBalise":4},"times":{"ParagraphTest::testParagraph":0,"ItalicTest::testParagraph":0.009,"ParagraphTest::testParagraphWithAnOtherBalise":0,"ItalicTest::testItalic":0.017,"ItalicTest::testtalicWithAnOtherBalise":0.002}}
